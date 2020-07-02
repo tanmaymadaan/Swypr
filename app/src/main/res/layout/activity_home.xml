@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.HomeActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="150dp" 
+        android:layout_margin="@dimen/loginViewsMargin"
+        app:cardCornerRadius="@dimen/homeCardRadius">
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/colorPrimary">
+
+            <TextView
+                tools:text="Distance Travelled: 20KM"
+                style="@style/cardView_text" />
+
+            <TextView
+                tools:text="Swipe In Time: 10:27AM"
+                style="@style/cardView_text" />
+
+            <TextView
+                tools:text="Currently Checked In: CMC"
+                style="@style/cardView_text" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

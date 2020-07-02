@@ -51,4 +51,13 @@
         <item name="android:textColor">@color/whiteTextColor</item>
         <item name="android:textStyle">bold</item>
     </style>
+
+    <style name="cardView_text">
+        <item name="android:layout_marginTop">@dimen/homeCardView_textMargin</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/homeCardView_textSize</item>
+    </style>
 </resources>
