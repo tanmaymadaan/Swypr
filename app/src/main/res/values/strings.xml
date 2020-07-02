@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Swypr</string>
+    <string name="enter_email">Email</string>
+    <string name="enter_pass">Password</string>
+    <string name="login_text">Login</string>
+    <string name="send_otp">Send OTP</string>
+    <string name="sign_up">Don\'t have an account? Sign Up</string>
+    <string name="login">Login</string>
+</resources>
