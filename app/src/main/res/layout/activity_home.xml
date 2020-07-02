@@ -9,7 +9,8 @@
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="150dp" 
+        android:layout_height="150dp"
+        android:elevation="5dp"
         android:layout_margin="@dimen/loginViewsMargin"
         app:cardCornerRadius="@dimen/homeCardRadius">
         
@@ -25,6 +26,10 @@
 
             <TextView
                 tools:text="Swipe In Time: 10:27AM"
+                style="@style/cardView_text" />
+
+            <TextView
+                tools:text="Today's Total Time: 3hr48min"
                 style="@style/cardView_text" />
 
             <TextView

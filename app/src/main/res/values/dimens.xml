@@ -6,7 +6,7 @@
     <dimen name="loginCardRadius">40dp</dimen>
     <dimen name="homeCardRadius">20dp</dimen>
     <dimen name="loginViewsMargin">20dp</dimen>
-    <dimen name="homeCardView_textMargin">15dp</dimen>
+    <dimen name="homeCardView_textMargin">8dp</dimen>
     <dimen name="signup_text_margin_top">10dp</dimen>
     <dimen name="homeCardView_textSize">20sp</dimen>
 
