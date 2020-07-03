@@ -60,4 +60,23 @@
         <item name="android:textColor">@android:color/white</item>
         <item name="android:textSize">@dimen/homeCardView_textSize</item>
     </style>
+
+    <style name="home_text_option">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">5</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:layout_gravity">start</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_marginStart">10dp</item>
+    </style>
+
+    <style name="home_image_option">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">end</item>
+    </style>
 </resources>

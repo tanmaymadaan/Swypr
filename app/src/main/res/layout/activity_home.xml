@@ -7,6 +7,15 @@
     android:orientation="vertical"
     tools:context=".activities.HomeActivity">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Welcome, Tanmay!"
+        android:layout_marginTop="@dimen/loginViewsMargin"
+        android:layout_marginStart="@dimen/loginViewsMargin"
+        android:textSize="@dimen/homeCardView_textSize"/>
+
+
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="150dp"
@@ -35,6 +44,49 @@
             <TextView
                 tools:text="Currently Checked In: CMC"
                 style="@style/cardView_text" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="@dimen/loginViewsMargin"
+        app:cardCornerRadius="@dimen/homeCardRadius">
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+           <TextView
+               tools:text="Check In"
+               style="@style/home_text_option" />
+
+            <ImageView
+                android:src="@drawable/ic_checkin_24dp_primary"
+                style="@style/home_image_option" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="@dimen/loginViewsMargin"
+        android:layout_marginEnd="@dimen/loginViewsMargin"
+        app:cardCornerRadius="@dimen/homeCardRadius">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                tools:text="Reports"
+                style="@style/home_text_option" />
+
+            <ImageView
+                android:src="@drawable/ic_reports_24dp_primary"
+                style="@style/home_image_option"/>
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 
