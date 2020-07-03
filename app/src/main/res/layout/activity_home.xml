@@ -90,4 +90,47 @@
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="@dimen/loginViewsMargin"
+        android:layout_marginEnd="@dimen/loginViewsMargin"
+        android:layout_marginTop="@dimen/loginViewsMargin"
+        app:cardCornerRadius="@dimen/homeCardRadius">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                tools:text="Admin Notes"
+                style="@style/home_text_option" />
+
+            <ImageView
+                android:src="@drawable/ic_baseline_notes_24"
+                style="@style/home_image_option"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <com.ebanx.swipebtn.SwipeButton
+        android:id="@+id/swipeButton"
+        android:layout_width="360dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="110dp"
+        app:button_background="@drawable/shape_button"
+        app:button_bottom_padding="20dp"
+        app:button_image_disabled="@drawable/ic_baseline_chevron_right_24"
+        app:button_image_enabled="@drawable/ic_baseline_power_settings_new_24"
+        app:button_left_padding="20dp"
+        app:button_right_padding="20dp"
+        app:button_top_padding="20dp"
+        app:inner_text="Swipe In"
+        app:inner_text_background="@drawable/shape_rounded_40dp"
+        app:inner_text_bottom_padding="18dp"
+        app:inner_text_color="@android:color/white"
+        app:inner_text_size="16sp"
+        app:inner_text_top_padding="18dp" />
+
 </LinearLayout>
