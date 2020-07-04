@@ -6,4 +6,16 @@
     <string name="send_otp">Send OTP</string>
     <string name="sign_up">Don\'t have an account? Sign Up</string>
     <string name="login">Login</string>
+
+    <!-- Home Activity -->
+    <string name="welcome">Welcome,</string>
+    <string name="checkIn">Check In</string>
+    <string name="reports">Reports</string>
+    <string name="adminNotes">Admin Notes</string>
+
+    <!-- Home Activity Card View -->
+    <string name="dist_trav">Distance Travelled:</string>
+    <string name="swipeIn">SwipeIn Time:</string>
+    <string name="totalTime">Today\'s Total Time:</string>
+    <string name="currCheckIn">Current Check In:</string>
 </resources>

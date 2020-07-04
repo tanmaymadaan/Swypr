@@ -8,6 +8,7 @@
     tools:context=".activities.HomeActivity">
 
     <TextView
+        android:id="@+id/welcomeTv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         tools:text="Welcome, Tanmay!"
@@ -30,20 +31,24 @@
             android:background="@color/colorPrimary">
 
             <TextView
-                tools:text="Distance Travelled: 20KM"
-                style="@style/cardView_text" />
+                android:id="@+id/distance_tv"
+                style="@style/cardView_text"
+                tools:text="Distance Travelled: 20KM" />
 
             <TextView
-                tools:text="Swipe In Time: 10:27AM"
-                style="@style/cardView_text" />
+                android:id="@+id/swipe_time_tv"
+                style="@style/cardView_text"
+                tools:text="Swipe In Time: 10:27AM" />
 
             <TextView
-                tools:text="Today's Total Time: 3hr48min"
-                style="@style/cardView_text" />
+                android:id="@+id/total_time_tv"
+                style="@style/cardView_text"
+                tools:text="Today's Total Time: 3hr48min" />
 
             <TextView
-                tools:text="Currently Checked In: CMC"
-                style="@style/cardView_text" />
+                android:id="@+id/curr_checkin_tv"
+                style="@style/cardView_text"
+                tools:text="Currently Checked In: CMC" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
     
@@ -59,6 +64,7 @@
             android:orientation="horizontal">
 
            <TextView
+               android:text="@string/checkIn"
                tools:text="Check In"
                style="@style/home_text_option" />
 
@@ -81,6 +87,7 @@
             android:orientation="horizontal">
 
             <TextView
+                android:text="@string/reports"
                 tools:text="Reports"
                 style="@style/home_text_option" />
 
@@ -104,6 +111,7 @@
             android:orientation="horizontal">
 
             <TextView
+                android:text="@string/adminNotes"
                 tools:text="Admin Notes"
                 style="@style/home_text_option" />
 
